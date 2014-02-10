@@ -7,6 +7,6 @@ sudo apt-get install rubygems
 
 #dotfiles
 sudo gem install homesick
-homesick clone git@github.com:PeterHancock/dotfiles.git
+homesick clone https://github.com/PeterHancock/dotfiles.git
 homesick symlink dotfiles
 
