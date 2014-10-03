@@ -3,7 +3,7 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install git
-sudo apt-get -y install rubygems
+sudo apt-get -y install ruby
 
 cd ~
 
@@ -17,3 +17,5 @@ homesick symlink dotfiles
 # Groovy and friends
 curl -s api.gvmtool.net | bash
 
+# node and friends
+curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
