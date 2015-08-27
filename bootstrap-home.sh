@@ -19,3 +19,10 @@ curl -s api.gvmtool.net | bash
 
 # node and friends
 curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
+
+nvm install install v0.12
+nvm alias default 0.12
+nvm use 0.12
+
+node i -g readme
+node i -g pkginit
