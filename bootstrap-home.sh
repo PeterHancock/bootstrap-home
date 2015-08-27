@@ -26,3 +26,4 @@ nvm use 0.12
 
 node i -g readme
 node i -g pkginit
+node i -g picture-tube
